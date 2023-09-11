@@ -2,7 +2,7 @@ import random
 import time
 
 # List of words for the typing test
-word_list = ["The word forest broadly describes an area that has a large number of trees. There are three general types of forest that exist: temperate, tropical, and boreal. Experts estimate that these forests cover approximately one-third of Earth's surface", "The forests provide homes for people around the world", "Forests are natural habitats for many animals. The trees supply oxygen to the atmosphere. They affect the rainfall in a particular region. They also provide us with wood, medicines, food, perfumes, paper, clothes, etc", " forest is a large green wild area that grows naturally.", "Forests are a diverse ecosystem on Earth that includes trees, shrubs, grasses, and other plants. Trees and plants make up a large portion of the forest. Forests are essential not only for human beings but also for all animals. But we rarely understand the depth of its importance for our survival.", "As per Article 48A, the state shall make laws to protect and improve the environment to safeguard the forests of our country. According to Article 51A(g), it is the duty of every citizen of India to protect and improve the natural environment including the forests of our country.", "typing", "test", "openai"]
+word_list = ['Dict','List','Tuple','Set','Deque','NamedTuple','Pattern','Match','Text','Optional','Sequence','Iterable','Mapping','Mutablemapping']
 
 # Function to calculate words per minute (WPM)
 def calculate_wpm(start_time, end_time, typed_words):
